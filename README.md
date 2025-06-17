@@ -24,11 +24,11 @@ python utils/data_process.py
 
 ### 3. Train & Test
 
-python main —infer_type testing
+python main.py —infer_type testing
 
 ### 4. Real-time inference
 
-python main —infer_type realtime
+python main.py —infer_type realtime
 
 You need to prepare the required input samples in the form of `[N,]` and store them in the `data/realtimeInput` directory.
 
@@ -60,11 +60,11 @@ python utils/data_process.py
 
 ### 3. 训练&测试
 
-python main —infer_type testing
+python main.py —infer_type testing
 
 ### 4. 实时推理
 
-python main —infer_type realtime
+python main.py —infer_type realtime
 
 你需要准备所需要的输入样本，形式为`[N, ]`，存放在`data/realtimeInput`目录下
 
