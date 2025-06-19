@@ -7,7 +7,7 @@ class ODModel(nn.Module):
     def __init__(self, N, temp, freq):
         super(ODModel, self).__init__()
 
-        self.N = N  # 区域数
+        self.N = N  # 区域数N
         self.temp = temp  # 频域差距 [N,]
         self.freq = freq  # 频域差距 [N,]
         n1 = 128  # 隐藏层神经元1

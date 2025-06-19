@@ -8,7 +8,7 @@ import networkx as nx
 import torch.nn.functional as F
 from matplotlib import pyplot as plt
 
-# 设置随机数种子
+# 设置随机种子
 torch.manual_seed(42)
 np.random.seed(42)
 

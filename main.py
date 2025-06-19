@@ -202,6 +202,7 @@ def test_model(model, device_id, N=110, test_loader=None, lr: float=None, log_na
 
 def realtime_infer(model, device_id, N, sample_path, scaler, ckpt_path):
     '''
+    实时推理
     :param sample_path: 实时速度数据的路径 --> [N,]
     :param model: 模型
     :param scaler: 归一化器
